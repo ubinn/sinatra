@@ -33,6 +33,7 @@ get '/check_lotto' do
         if k.include?("drwtNo")
             numbers << v # value를 numbers 에 넣는 표시
         end
+   
     end
      
     my_num = *(1..45)
